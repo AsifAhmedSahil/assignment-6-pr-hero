@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- component -->
+<div class="">
+    <section class="text-gray-700  ">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="text-center mb-20">
+          <h1 class="sm:text-5xl text-2xl font-medium text-center title-font text-gray-900 mb-4 ">
+            Frequently Asked Question
+          </h1>
+          <p class="text-2xl text-green-500 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            The most common questions about JavaScript ES6
+          </p>
+        </div>
+        <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div class="w-full lg:w-1/2 px-4 py-2">
+            <details class="mb-4">
+              <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                Difference Between Var , Let, Const?
+              </summary>
+
+              <span>
+                var declarations are globally scoped or function scoped while let and const are block scoped. var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. They are all hoisted to the top of their scope.
+
+                Scope: Global scoped or function scoped. The scope of the var keyword is the global or function scope. It means variables defined outside the function can be accessed globally, and variables defined inside a particular function can be accessed within the function. 
+              </span>
+            </details>
+            
+            <details class="mb-4">
+              <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                Difference Between Arrow & Regular Function?
+              </summary>
+
+              <span>
+                Arrow function — also called fat arrow function— is a new feature introduced in ES6 that is a more concise syntax for writing function expressions. While both regular JavaScript functions and arrow functions work in a similar manner, there are certain differences between them.
+
+                1. Syntax
+                2. Arguments binding
+                3. Use of this keyword
+                4. Using new keyword
+
+              </span>
+            </details>
+          </div>
+          <div class="w-full lg:w-1/2 px-4 py-2">
+            <details class="mb-4">
+              <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                Difference Between map() , Filter(), forEach(), Find()?
+              </summary>
+
+              <span class="px-4 py-2">
+                .forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.
+
+                .map() executes the same code on every element in an array and returns a new array with the updated elements.
+
+                .filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.
+
+                .find() is also a search function like the previous but they differ in one small detail — this function returns only one match in an array. If in an array is more than one result, the function will return the first that has matched.
+              </span>
+            </details>
+            
+            <details class="mb-4">
+              <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                why we use template string?
+              </summary>
+
+              <span class="px-4 py-2">
+                Template strings in JavaScript. Template were introduced in ES6 to allow embed expressions inside a string. Instead of ‘’ or “” quotation marks they use the backticks (``). They offer a much better way of string interpolation and expressions can be embedded in a way like $ {a+b}.
+
+                A template string, or called template literal, is a practical and useful syntax in JavaScript. It makes our programs neater and better when it comes to string handling.
+              </span>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
